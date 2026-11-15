@@ -28,8 +28,8 @@ const POEM = [
   'when to say, enough, this is mine.',
   '',
   'Agency was never in the ink.',
-  'It was the hand that lets go',
-  'and knows exactly what it gave away.',
+  'It was the hand that let go',
+  'and knew exactly what it kept.',
 ].join('\n');
 
 writeFileSync(join(OUTPUT_DIR, 'entry.txt'), POEM);
